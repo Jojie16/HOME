@@ -1,67 +1,68 @@
 body{
-    background-image: url("B2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    margin: 0px;
-    font-family: sans-serif;
+  background-image: url("B2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  margin: 0px;
+  font-family: sans-serif;
 
 }
 #header
 {
-    background-color: chocolate;
-    margin: 10px;
-    height: 50px;
-    padding: 3px;
-    border-radius: 18px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-   
+  background-color: chocolate;
+  margin: 10px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+ 
 }   
 #navbar
 {
-    background-color:rgb(97, 97, 97);
-    margin: 10px;
-    border-radius: 15px;
-    padding: 7px;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 23px;
+  background-color:rgb(97, 97, 97);
+  margin: 10px;
+  border-radius: 15px;
+  padding: 7px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 23px;
 }   
 #navbar:hover {
-    background-image: url("B1.jpg");
-    transition: 1s;
+  background-image: url("B1.jpg");
+  transition: 1s;
 }
 h3{color: white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
 a{
-    color: white;
+  color: white;
 }
 h1{
-    background-color: rgb(5, 148, 60);
-    margin: 100px;
-    margin-right: 100px;
-    text-align: center;
-    border-radius: 90%;
-    color: rgb(253, 253, 253);
-    border-style: solid;
-}
-.home{
-  background-color: #1e9cf0;
-  border: 3px solid black;
-  border-radius: 15px;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
+  background-color: rgb(5, 148, 60);
+  margin: 100px;
+  margin-right: 100px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  border-radius: 90%;
+  color: rgb(253, 253, 253);
+  border-style: solid;
+}
+
+.home{
+background-color: #1e9cf0;
+border: 3px solid black;
+border-radius: 15px;
+color: rgb(255, 255, 255);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
 
 
