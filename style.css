@@ -1,68 +1,131 @@
 body{
-  background-image: url("B2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  margin: 0px;
-  font-family: sans-serif;
-
-}
-#header
-{
-  background-color: chocolate;
-  margin: 10px;
-  height: 50px;
-  padding: 3px;
-  border-radius: 18px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
- 
-}   
-#navbar
-{
-  background-color:rgb(97, 97, 97);
-  margin: 10px;
-  border-radius: 15px;
-  padding: 7px;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 23px;
-}   
-#navbar:hover {
-  background-image: url("B1.jpg");
-  transition: 1s;
-}
-h3{color: white;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://w0.peakpx.com/wallpaper/1004/602/HD-wallpaper-matrix-black-blue-code.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100vmax;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
   
-}
-a{
-  color: white;
-}
-h1{
-  background-color: rgb(5, 148, 60);
-  margin: 100px;
-  margin-right: 100px;
+  }
+  #header
+  {
+    background-color: chocolate;
+    margin: 10px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+   
+  }   
+  #navbar
+  {
+    background-color:rgb(97, 97, 97);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+  }   
+  #navbar:hover {
+    background-image: url("B1.jpg");
+    transition: 1s;
+  }
+  h3{color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  a{
+    color: white;
+  }
+  h4{
+    background-color: rgb(5, 148, 60);
+    margin: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 25%;
+    color: rgb(253, 253, 253);
+    border-style: solid;
+  }
+  
+  .home{
+  background-color: #1e9cf0;
+  border: 3px solid black;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
   text-align: center;
-  border-radius: 90%;
-  color: rgb(253, 253, 253);
-  border-style: solid;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  .leave{
+      color: white;
+      text-align: center;
+      font-family: Copperplate, Papyrus, fantasy;
+      margin: 0px;
+      padding: 0px;
+      margin-left: 25%;
+      margin-right: 25%;
+      border-style: groove;
+      border-radius: 15px;
+  }
+  h1{
+      text-align: center;
+      color: white;
+  }
+  #quotes{
+    border: 1px groove;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    color: white;
+    text-align: center;
+  }
+  strong{
+      size: 25px;
+  }
+  .khaby{
+      border-radius: 10px;
+      border-style: groove;
+      margin-bottom: 100px;
+  }
+
+span{
+    color: white;
+}
+.footer{
+    text-align: center;
+    color: gray;
+    
 }
 
-.home{
-background-color: #1e9cf0;
-border: 3px solid black;
-border-radius: 15px;
-color: rgb(255, 255, 255);
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-}
+  /*---------------------------SCROLL BAR-------------------------*/
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
