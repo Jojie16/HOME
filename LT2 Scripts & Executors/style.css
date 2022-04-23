@@ -1,0 +1,64 @@
+body{
+    color: gray;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+#header{
+    background-color: rgb(97, 29, 94);
+    overflow: hidden;
+    margin: 10px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ex{
+    margin: 90px;
+    padding: 3px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 50px;
+    color: yellowgreen;
+    
+}
+.exlinks{
+    color: white;
+    text-align: center;
+    
+}
+a:link, a:visited {
+    background-color: #1a7004;
+    color: white;
+    margin: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  a:hover, a:active {
+    background-color: rgb(3, 80, 15);
+  }
+.scrpt{
+    margin: 50px;
+    padding: 3px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 50px;
+    color: yellowgreen;
+}
+.scrpts{
+    color: white;
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+    margin: 100px;
+}
