@@ -1,0 +1,166 @@
+body{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  height: 100%;
+  margin: 0px;
+  font-family: sans-serif;
+
+}
+
+#navbar
+{
+  background-color:rgb(97, 97, 97);
+  margin: 10px;
+  border-radius: 15px;
+  padding: 7px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 23px;
+}   
+#navbar:hover {
+  background-image: url("B1.jpg");
+  transition: 1s;
+  
+}
+h3{color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 75px;
+  background-color: rgb(109, 5, 11);
+  border-radius: 35px;
+  border-style: groove;
+  
+}
+
+address{
+  text-align: center;
+  color: rgb(180, 49, 49);
+  font-size: 30px;
+}
+
+a{  
+  color: white;
+}
+h1{
+    background-color: rgb(12, 79, 180);
+    border-radius: 100%;
+    /* -----------------------------------------*/
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+ }
+
+
+
+#container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+#monitor {
+    background: #000; 
+    position: relative;
+    border-top: 3px solid #888; 
+    margin: 5%;
+    padding: 2% 2% 4% 2%; 
+    border-radius: 10px; 
+    border-bottom-left-radius: 50% 2%; 
+    border-bottom-right-radius: 50% 2%; 
+    transition: margin-right 1s;
+}
+
+#monitor:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    left: 36%;
+    height: .5%; 
+    width: 28%;
+    background: #ddd; 
+    border-radius: 50%; 
+    box-shadow: 0 0 3px 0 white; 
+}
+
+#monitorscreen {
+    position: relative;
+  background-color: #777;
+    background-size: cover; 
+    background-position: top center;
+    height: 0; 
+    padding-bottom: 56.25%; 
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media all and (min-width: 960px) {
+    #monitor {
+        -webkit-animation: tvflicker .2s infinite alternate; 
+        -moz-animation:    tvflicker .5s infinite alternate; 
+        -o-animation:      tvflicker .5s infinite alternate; 
+        animation:         tvflicker .5s infinite alternate; 
+    }
+
+    @-webkit-keyframes tvflicker {
+      0%   { box-shadow: 0 0 100px 0 rgba(200,235,255,0.4); }
+      100% { box-shadow: 0 0 95px 0 rgba(200,230,255,0.45); }
+    }
+    @-moz-keyframes tvflicker {
+      0%   { box-shadow: 0 0 100px 0 rgba(225,235,255,0.4); }
+      100% { box-shadow: 0 0 60px 0 rgba(200,220,255,0.6); }
+    }
+    @-o-keyframes tvflicker {
+      0%   { box-shadow: 0 0 100px 0 rgba(225,235,255,0.4); }
+      100% { box-shadow: 0 0 60px 0 rgba(200,220,255,0.6); }
+    }
+    @keyframes tvflicker {
+      0%   { box-shadow: 0 0 100px 0 rgba(225,235,255,0.4); }
+      100% { box-shadow: 0 0 60px 0 rgba(200,220,255,0.6); }
+    }
+}
+
+
+/*----------------------NEXT----------------------------------*/
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px 46px;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
