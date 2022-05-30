@@ -6,7 +6,7 @@ function validate() {
     var password = document.getElementById("password").value;
     if (username == "Cute" && password == "LarJie<3") {
         alert("Login successfully");
-        window.location = "https://polard.ml"; // Redirecting to other page.
+        window.location = "https://polard.ml/My-Langga/"; // Redirecting to other page.
         return false;
     }
     else {
