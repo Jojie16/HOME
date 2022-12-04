@@ -35,13 +35,23 @@ h1{
 
 .s-o_Names {
 
+    height: auto;
     border-style: groove;
     border-radius: 20px 80px;
     font-style: oblique;
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(180, 207, 57);
     display: inline-block;
     text-align: left;
+}
+
+.s-o_Names a:hover, a:active {
+    background-color: rgb(3, 80, 15);
+
+}
+
+.s-o_Names a:link, a:visited {
+    text-decoration: none;
 }
 
 .exc{
@@ -58,7 +68,7 @@ h1{
     text-align: center;
     
 }
-a:link, a:visited {
+.exlinks a:link, a:visited {
     background-color: #1a7004;
     color: white;
     margin: 10px;
@@ -68,7 +78,7 @@ a:link, a:visited {
     display: inline-block;
     border-radius: 10px;
   }
-  a:hover, a:active {
+  .exlinks a:hover, a:active {
     background-color: rgb(3, 80, 15);
   }
 .scrpt{
@@ -84,6 +94,20 @@ a:link, a:visited {
     text-align: center;
     
 }
+.scrpts a:link, a:visited {
+    background-color: #1a7004;
+    color: white;
+    margin: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+.scrpts a:hover, a:active {
+    background-color: rgb(3, 80, 15);
+  }
+
 footer{
     text-align: center;
     margin: 100px;
