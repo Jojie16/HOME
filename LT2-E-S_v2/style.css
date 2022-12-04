@@ -40,17 +40,19 @@ h1{
     border-radius: 20px 80px;
     font-style: oblique;
     font-size: 19px;
-    color: rgb(180, 207, 57);
     display: inline-block;
     text-align: left;
 }
 
 .s-o_Names a:hover, a:active {
     background-color: rgb(3, 80, 15);
-
 }
 
-.s-o_Names a:link, a:visited {
+.s-o_Names a:visited {
+    text-decoration: none;
+    color: rgb(180, 207, 57);
+}
+.s-o_Names a:link {
     text-decoration: none;
 }
 
